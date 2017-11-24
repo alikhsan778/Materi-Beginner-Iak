@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iak.example.alikhsan778.relativelayout.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_name_ikhsan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64DD17"
+        android:padding="8dp"
+        android:text="@string/alikhsan"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_name_jonathan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tv_name_ikhsan"
+        android:background="#1DE9B6"
+        android:gravity="bottom"
+        android:paddingBottom="8dp"
+        android:text="@string/jonathan"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_name_gisel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_name_ikhsan"
+        android:layout_toRightOf="@id/tv_name_jonathan"
+        android:background="#D500F9"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/gisel"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

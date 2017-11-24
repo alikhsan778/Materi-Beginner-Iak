@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Menu Pesanan</string>
+    <string name="name">Name</string>
+    <string name="topings">Topings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="choco">Cholocate</string>
+    <string name="quantity">Quantity</string>
+    <string name="min">-</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="_5">$ 0</string>
+    <string name="order">order</string>
+    <string name="detail_order">detail order</string>
+</resources>

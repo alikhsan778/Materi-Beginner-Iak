@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginOne</string>
+    <string name="log_in">Log In</string>
+    <string name="email">alikhsan778@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="username_email">Username / Email</string>
+    <string name="i_agree_policy_and_statement">I Agree Policy and Statement</string>
+</resources>
